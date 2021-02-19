@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 public interface Status {
 
@@ -12,7 +11,7 @@ public interface Status {
 
     List<BigDecimal> userData = new ArrayList<>();
 
-    Status handle(Scanner scanner);
+    Status handle();
 
     StatusType getType();
 
